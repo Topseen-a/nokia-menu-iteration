@@ -252,6 +252,7 @@ import java.util.Scanner;
                         System.out.println("9. Screen saver");
                         System.out.print("Select a number: ");
 
+                        System.out.print("Select a number: ");
                         menuFunctions = input.nextInt();
 
                         switch (menuFunctions) {
@@ -374,41 +375,40 @@ import java.util.Scanner;
 
                 case 8 -> System.out.println("Games");
 
+                case 9 -> System.out.println("Calculator");
 
+                case 10 -> System.out.println("Reminders");
+            
+                case 11 -> {
+                        System.out.println("1. Alarm clock");
+                        System.out.println("2. Clock settings");
+                        System.out.println("3. Date setting");
+                        System.out.println("4. Stopwatch");
+                        System.out.println("5. Countdown timer");
+                        System.out.println("6. Auto update of date and time");
+    
+                        System.out.print("Select a number: ");
+                        menuFunctions = input.nextInt();
 
+                        switch (menuFunctions) {
 
+                            case 1 -> System.out.println("Alarm clock");
 
+                            case 2 -> System.out.println("Clock settings");
 
+                            case 3 -> System.out.println("Date setting");
 
+                            case 4 -> System.out.println("Stopwatch");
+                            
+                            case 5 -> System.out.println("Countdown timer");
+
+                            case 6 -> System.out.println("Auto update of date and time");
+                                    }                   
+                                }
                 
+                case 12 -> System.out.println("Profiles");
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                case 13 -> System.out.println("SIM services");
 
 
             }
