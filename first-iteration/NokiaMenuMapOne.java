@@ -1,5 +1,5 @@
 import java.util.Scanner;
-    public class Nokia{
+    public class NokiaMenuMapOne{
         public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
