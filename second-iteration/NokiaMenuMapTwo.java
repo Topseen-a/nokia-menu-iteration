@@ -34,43 +34,56 @@ import java.util.Scanner;
                     System.out.println("8. Options");
                     System.out.println("9. Speed dials");
                     System.out.println("10. Voice tags");
+                    System.out.println("0. Back");
                     System.out.print("Select a number: ");
            
                     menuFunctions = input.nextInt();
                     
                     switch (menuFunctions) {
-                        case 1 -> System.out.println("Search");
+                        case 1 -> {System.out.println("Search");
+                                  System.out.println("0. Back");}
 
-                        case 2 -> System.out.println("Service Nos.");
+                        case 2 -> {System.out.println("Service Nos.");
+                                    System.out.println("0. Back");}
 
-                        case 3 -> System.out.println("Add name");
+                        case 3 -> {System.out.println("Add name");
+                                    System.out.println("0. Back");}
 
-                        case 4 -> System.out.println("Erase");
+                        case 4 -> {System.out.println("Erase");
+                                    System.out.println("0. Back");}
 
-                        case 5 -> System.out.println("Edit");
+                        case 5 -> {System.out.println("Edit");
+                                    System.out.println("0. Back");}
 
-                        case 6 -> System.out.println("Assign tone");
+                        case 6 -> {System.out.println("Assign tone");
+                                    System.out.println("0. Back");}
 
-                        case 7 -> System.out.println("Send b’card");
+                        case 7 -> {System.out.println("Send b’card");
+                                    System.out.println("0. Back");}
 
                         case 8 -> {
                                 System.out.println("Options");
                                 System.out.println("1. Type of view");
                                 System.out.println("2. Memory status");
+                                System.out.println("0. Back");
 
                                 System.out.print("Select an input: ");
                                 menuFunctions = input.nextInt();
 
                                 switch (menuFunctions){
-                                    case 1 -> System.out.println("Type of view");
+                                    case 1 -> {System.out.println("Type of view");
+                                                System.out.println("0. Back");}
                                             
-                                    case 2 -> System.out.println("Memory status");
+                                    case 2 -> {System.out.println("Memory status");
+                                                System.out.println("0. Back");}
                                 }
                              }
 
-                        case 9 -> System.out.println("Speed dials");
+                        case 9 -> {System.out.println("Speed dials");
+                                System.out.println("0. Back");}
 
-                        case 10 -> System.out.println("Voice tags");
+                        case 10 -> {System.out.println("Voice tags");
+                                    System.out.println("0. Back");}
                                 }
                             }
                 case 2 -> {
@@ -84,28 +97,36 @@ import java.util.Scanner;
                         System.out.println("8. Info service");
                         System.out.println("9. Voice mailbox number");
                         System.out.println("10. Service command editor");
+                        System.out.println("0. Back");
                         System.out.print("Select a number: ");
 
                         menuFunctions = input.nextInt();
 
                         switch (menuFunctions) {
 
-                            case 1 -> System.out.println("Write messages");
+                            case 1 -> {System.out.println("Write messages");
+                                        System.out.println("0. Back");}
 
-                            case 2 -> System.out.println("Inbox");
+                            case 2 -> {System.out.println("Inbox");
+                                        System.out.println("0. Back");}
 
-                            case 3 -> System.out.println("Outbox");
+                            case 3 -> {System.out.println("Outbox");
+                                        System.out.println("0. Back");}
 
-                            case 4 -> System.out.println("Picture messages");
+                            case 4 -> {System.out.println("Picture messages");
+                                        System.out.println("0. Back");}
 
-                            case 5 -> System.out.println("Templates");
+                            case 5 -> {System.out.println("Templates");
+                                        System.out.println("0. Back");}
 
-                            case 6 -> System.out.println("Smileys");
+                            case 6 -> {System.out.println("Smileys");
+                                        System.out.println("0. Back");}
 
                             case 7 -> {
                                     System.out.println("Message settings");
                                     System.out.println("1. Set 1");
                                     System.out.println("2. Common 3");
+                                    System.out.println("0. Back");
 
                                     System.out.print("Select an input: ");
                                     menuFunctions = input.nextInt();
@@ -115,16 +136,20 @@ import java.util.Scanner;
                                                 System.out.println("1. Message centre number");
                                                 System.out.println("2. Message sent as");
                                                 System.out.println("3. Message validity");
+                                                System.out.println("0. Back");
 
                                                 System.out.print("Select an input: ");
                                                 menuFunctions = input.nextInt();
 
                                             switch (menuFunctions) {
-                                                case 1 -> System.out.println("Message centre number");
+                                                case 1 -> {System.out.println("Message centre number");
+                                                            System.out.println("0. Back");}
 
-                                                case 2 -> System.out.println("Message sent as");
+                                                case 2 -> {System.out.println("Message sent as");
+                                                            System.out.println("0. Back");}
 
-                                                case 3 -> System.out.println("Message validity");
+                                                case 3 -> {System.out.println("Message validity");
+                                                            System.out.println("0. Back");}
                                                 }
                                             }
 
@@ -132,29 +157,37 @@ import java.util.Scanner;
                                                 System.out.println("1. Delivery reports");
                                                 System.out.println("2. Reply via same centre");
                                                 System.out.println("3. Character support");
+                                                System.out.println("0. Back");
 
                                                 System.out.print("Select an input: ");
                                                 menuFunctions = input.nextInt();
 
                                             switch (menuFunctions) {
-                                                case 1 -> System.out.println("Delivery reports");
+                                                case 1 -> {System.out.println("Delivery reports");
+                                                            System.out.println("0. Back");}
 
-                                                case 2 -> System.out.println("Reply via same centre");
+                                                case 2 -> {System.out.println("Reply via same centre");
+                                                            System.out.println("0. Back");}
 
-                                                case 3 -> System.out.println("Character support");
+                                                case 3 -> {System.out.println("Character support");
+                                                            System.out.println("0. Back");}
                                                 }
                                             }
                                         } 
                                     } 
 
-                            case 8 -> System.out.println("Info service");
+                            case 8 -> {System.out.println("Info service");
+                                        System.out.println("0. Back");}
 
-                            case 9 -> System.out.println("Voice mailbox number");
+                            case 9 -> {System.out.println("Voice mailbox number");
+                                        System.out.println("0. Back");}
 
-                            case 10 -> System.out.println("Service command editor");
+                            case 10 -> {System.out.println("Service command editor");
+                                        System.out.println("0. Back");}
                                 }
                             }
-                case 3 -> System.out.println("Chat");
+                case 3 -> {System.out.println("Chat");
+                            System.out.println("0. Back");}
 
                 case 4 -> {
                         System.out.println("1. Missed calls");
@@ -165,19 +198,24 @@ import java.util.Scanner;
                         System.out.println("6. Show call costs");
                         System.out.println("7. Call cost settings");
                         System.out.println("8. Prepaid credit");
+                        System.out.println("0. Back");
                         System.out.print("Select a number: ");
 
                         menuFunctions = input.nextInt();
 
                         switch (menuFunctions) {
 
-                            case 1 -> System.out.println("Missed calls");
+                            case 1 -> {System.out.println("Missed calls");
+                                        System.out.println("0. Back");}
 
-                            case 2 -> System.out.println("Received calls");
+                            case 2 -> {System.out.println("Received calls");
+                                        System.out.println("0. Back");}
 
-                            case 3 -> System.out.println("Dialled numbers");
+                            case 3 -> {System.out.println("Dialled numbers");
+                                        System.out.println("0. Back");}
 
-                            case 4 -> System.out.println("Erase recent call list");
+                            case 4 -> {System.out.println("Erase recent call list");
+                                        System.out.println("0. Back");}
 
                             case 5 -> {
                                     System.out.println("Show call duration");
@@ -186,20 +224,26 @@ import java.util.Scanner;
                                     System.out.println("3. Received calls duration");
                                     System.out.println("4. Dialled calls duration");
                                     System.out.println("5. Clear timers");
+                                    System.out.println("0. Back");
 
                                     System.out.print("Select an input: ");
                                     menuFunctions = input.nextInt();
 
                                         switch (menuFunctions) {
-                                            case 1 -> System.out.println("Last call duration");
+                                            case 1 -> {System.out.println("Last call duration");
+                                                        System.out.println("0. Back");}
 
-                                            case 2 -> System.out.println("All calls duration");
+                                            case 2 -> {System.out.println("All calls duration");
+                                                        System.out.println("0. Back");}
 
-                                            case 3 -> System.out.println("Received calls duration");
+                                            case 3 -> {System.out.println("Received calls duration");
+                                                        System.out.println("0. Back");}
 
-                                            case 4 -> System.out.println("Dialled calls duration");
+                                            case 4 -> {System.out.println("Dialled calls duration");
+                                                        System.out.println("0. Back");}
 
-                                            case 5 -> System.out.println("Clear timers");
+                                            case 5 -> {System.out.println("Clear timers");
+                                                        System.out.println("0. Back");}
                                                 }
                                               }
 
@@ -208,16 +252,20 @@ import java.util.Scanner;
                                     System.out.println("1. Last call cost");
                                     System.out.println("2. All calls cost");
                                     System.out.println("3. Clear counters");
+                                    System.out.println("0. Back");
 
                                     System.out.print("Select an input: ");
                                     menuFunctions = input.nextInt();
 
                                         switch (menuFunctions) {
-                                            case 1 -> System.out.println("Last call cost");
+                                            case 1 -> {System.out.println("Last call cost");
+                                                        System.out.println("0. Back");}
 
-                                            case 2 -> System.out.println("All calls cost");
+                                            case 2 -> {System.out.println("All calls cost");
+                                                        System.out.println("0. Back");}
 
-                                            case 3 -> System.out.println("Clear counters");
+                                            case 3 -> {System.out.println("Clear counters");
+                                                        System.out.println("0. Back");}
                                                 }
                                             }
 
@@ -225,18 +273,22 @@ import java.util.Scanner;
                                     System.out.println("Call cost settings");
                                     System.out.println("1. Call cost limit");
                                     System.out.println("2. Show costs in");
+                                    System.out.println("0. Back");
 
                                     System.out.print("Select an input: ");
                                     menuFunctions = input.nextInt();
 
                                         switch (menuFunctions) {
-                                            case 1 -> System.out.println("Call cost limit");
+                                            case 1 -> {System.out.println("Call cost limit");
+                                                        System.out.println("0. Back");}
 
-                                            case 2 -> System.out.println("Show costs in");
+                                            case 2 -> {System.out.println("Show costs in");
+                                                        System.out.println("0. Back");}
                                                 }
                                             }   
 
-                            case 8 -> System.out.println("Prepaid credit");
+                            case 8 -> {System.out.println("Prepaid credit");
+                                        System.out.println("0. Back");}
                                 }   
                             }   
 
@@ -250,30 +302,39 @@ import java.util.Scanner;
                         System.out.println("7. Warning and game tones");
                         System.out.println("8. Vibrating alert");
                         System.out.println("9. Screen saver");
-                        System.out.print("Select a number: ");
+                        System.out.println("0. Back");
 
                         System.out.print("Select a number: ");
                         menuFunctions = input.nextInt();
 
                         switch (menuFunctions) {
 
-                            case 1 -> System.out.println("Ringing tone");
+                            case 1 -> {System.out.println("Ringing tone");
+                                        System.out.println("0. Back");}
 
-                            case 2 -> System.out.println("Ringing volume");
+                            case 2 -> {System.out.println("Ringing volume");
+                                        System.out.println("0. Back");}
 
-                            case 3 -> System.out.println("Incoming call alert");
+                            case 3 -> {System.out.println("Incoming call alert");
+                                        System.out.println("0. Back");}
 
-                            case 4 -> System.out.println("Composer");
+                            case 4 -> {System.out.println("Composer");
+                                        System.out.println("0. Back");}
                             
-                            case 5 -> System.out.println("Message alert tone");
+                            case 5 -> {System.out.println("Message alert tone");
+                                        System.out.println("0. Back");}
 
-                            case 6 -> System.out.println("Keypad tones");
+                            case 6 -> {System.out.println("Keypad tones");
+                                        System.out.println("0. Back");}
 
-                            case 7 -> System.out.println("Warning and game tones");
+                            case 7 -> {System.out.println("Warning and game tones");
+                                        System.out.println("0. Back");}
 
-                            case 8 -> System.out.println("Vibrating alert");
+                            case 8 -> {System.out.println("Vibrating alert");
+                                        System.out.println("0. Back");}
 
-                            case 9 -> System.out.println("Screen saver");
+                            case 9 -> {System.out.println("Screen saver");
+                                        System.out.println("0. Back");}
                                     }                   
                                 }
             
@@ -282,8 +343,9 @@ import java.util.Scanner;
                         System.out.println("2. Phone settings");
                         System.out.println("3. Security settings");
                         System.out.println("4. Restore factory settings");
+                        System.out.println("0. Back");                    
+                        
                         System.out.print("Select a number: ");
-
                         menuFunctions = input.nextInt();
 
                         switch (menuFunctions) {
@@ -295,22 +357,29 @@ import java.util.Scanner;
                                 System.out.println("4. Own number sending");
                                 System.out.println("5. Phone line in use");
                                 System.out.println("6. Automatic answer");
-                                System.out.print("Select a number: ");
+                                System.out.println("0. Back");
 
+                                System.out.print("Select a number: ");
                                 menuFunctions = input.nextInt();
 
                                     switch (menuFunctions) {
-                                        case 1 -> System.out.println("Automatic redial");
+                                        case 1 -> {System.out.println("Automatic redial");
+                                                    System.out.println("0. Back");}
 
-                                        case 2 -> System.out.println("Speed dialling");
+                                        case 2 -> {System.out.println("Speed dialling");
+                                                    System.out.println("0. Back");}
 
-                                        case 3 -> System.out.println("Call waiting options");
+                                        case 3 -> {System.out.println("Call waiting options");
+                                                    System.out.println("0. Back");}
 
-                                        case 4 -> System.out.println("Own number sending");
+                                        case 4 -> {System.out.println("Own number sending");
+                                                    System.out.println("0. Back");}
 
-                                        case 5 -> System.out.println("Phone line in use");
+                                        case 5 -> {System.out.println("Phone line in use");
+                                                    System.out.println("0. Back");}
 
-                                        case 6 -> System.out.println("Automatic answer");
+                                        case 6 -> {System.out.println("Automatic answer");
+                                                    System.out.println("0. Back");}
                                                 }
                                         }      
 
@@ -322,22 +391,29 @@ import java.util.Scanner;
                                 System.out.println("4. Network selection");
                                 System.out.println("5. Lights");
                                 System.out.println("6. Confirm SIM service actions");
-                                System.out.print("Select a number: ");
+                                System.out.println("0. Back");
 
+                                System.out.print("Select a number: ");
                                 menuFunctions = input.nextInt();
 
                                     switch (menuFunctions) {
-                                        case 1 -> System.out.println("Language");
+                                        case 1 -> {System.out.println("Language");
+                                                    System.out.println("0. Back");}
 
-                                        case 2 -> System.out.println("Cell info display");
+                                        case 2 -> {System.out.println("Cell info display");
+                                                    System.out.println("0. Back");}
 
-                                        case 3 -> System.out.println("Welcome notes");
+                                        case 3 -> {System.out.println("Welcome notes");
+                                                    System.out.println("0. Back");}
 
-                                        case 4 -> System.out.println("Network selection");
+                                        case 4 -> {System.out.println("Network selection");
+                                                    System.out.println("0. Back");}
 
-                                        case 5 -> System.out.println("Lights");
+                                        case 5 -> {System.out.println("Lights");
+                                                    System.out.println("0. Back");}
 
-                                        case 6 -> System.out.println("Confirm SIM service actions");
+                                        case 6 -> {System.out.println("Confirm SIM service actions");
+                                                    System.out.println("0. Back");}
                                                 }  
                                             }      
 
@@ -348,36 +424,48 @@ import java.util.Scanner;
                                 System.out.println("4. Closed user group");
                                 System.out.println("5. Phone security");
                                 System.out.println("6. Change access codes");
-                                System.out.print("Select a number: ");
+                                System.out.println("0. Back");
 
+                                System.out.print("Select a number: ");
                                 menuFunctions = input.nextInt();
 
                                     switch (menuFunctions) {
-                                        case 1 -> System.out.println("PIN code request");
+                                        case 1 -> {System.out.println("PIN code request");
+                                                    System.out.println("0. Back");}
 
-                                        case 2 -> System.out.println("Call barring service");
+                                        case 2 -> {System.out.println("Call barring service");
+                                                    System.out.println("0. Back");}
 
-                                        case 3 -> System.out.println("Fixed dialling");
+                                        case 3 -> {System.out.println("Fixed dialling");
+                                                    System.out.println("0. Back");}
 
-                                        case 4 -> System.out.println("Closed user group");
+                                        case 4 -> {System.out.println("Closed user group");
+                                                    System.out.println("0. Back");}
 
-                                        case 5 -> System.out.println("Phone security");
+                                        case 5 -> {System.out.println("Phone security");
+                                                    System.out.println("0. Back");}
 
-                                        case 6 -> System.out.println("Change access codes");
+                                        case 6 -> {System.out.println("Change access codes");
+                                                    System.out.println("0. Back");}
                                                 }
                                              }
 
-                            case 4 -> System.out.println("Restore factory settings");
+                            case 4 -> {System.out.println("Restore factory settings");
+                                        System.out.println("0. Back");}
                                       } 
                                 }              
                 
-                case 7 -> System.out.println("Call divert");
+                case 7 -> {System.out.println("Call divert");
+                            System.out.println("0. Back");}
 
-                case 8 -> System.out.println("Games");
+                case 8 -> {System.out.println("Games");
+                            System.out.println("0. Back");}
 
-                case 9 -> System.out.println("Calculator");
+                case 9 -> {System.out.println("Calculator");
+                            System.out.println("0. Back");}
 
-                case 10 -> System.out.println("Reminders");
+                case 10 -> {System.out.println("Reminders");
+                            System.out.println("0. Back");}
             
                 case 11 -> {
                         System.out.println("1. Alarm clock");
@@ -386,31 +474,44 @@ import java.util.Scanner;
                         System.out.println("4. Stopwatch");
                         System.out.println("5. Countdown timer");
                         System.out.println("6. Auto update of date and time");
+                        System.out.println("0. Back");
     
                         System.out.print("Select a number: ");
                         menuFunctions = input.nextInt();
 
                         switch (menuFunctions) {
 
-                            case 1 -> System.out.println("Alarm clock");
+                            case 1 -> {System.out.println("Alarm clock");
+                                        System.out.println("0. Back");}
 
-                            case 2 -> System.out.println("Clock settings");
+                            case 2 -> {System.out.println("Clock settings");
+                                        System.out.println("0. Back");}
 
-                            case 3 -> System.out.println("Date setting");
+                            case 3 -> {System.out.println("Date setting");
+                                        System.out.println("0. Back");}
 
-                            case 4 -> System.out.println("Stopwatch");
+                            case 4 -> {System.out.println("Stopwatch");
+                                        System.out.println("0. Back");}
                             
-                            case 5 -> System.out.println("Countdown timer");
+                            case 5 -> {System.out.println("Countdown timer");
+                                        System.out.println("0. Back");}
 
-                            case 6 -> System.out.println("Auto update of date and time");
+                            case 6 -> {System.out.println("Auto update of date and time");
+                                        System.out.println("0. Back");}
                                     }                   
                                 }
                 
-                case 12 -> System.out.println("Profiles");
+                case 12 -> {System.out.println("Profiles");
+                            System.out.println("0. Back");}
 
-                case 13 -> System.out.println("SIM services");
+                case 13 -> {System.out.println("SIM services");
+                            System.out.println("0. Back");}
 
 
             }
         }
+        
+
+
+
     }
