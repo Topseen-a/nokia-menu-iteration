@@ -18,6 +18,7 @@ import java.util.Scanner;
         System.out.println("11. Clock");
         System.out.println("12. Profiles");
         System.out.println("13. SIM services");
+        System.out.println("0. Exit");
 
         System.out.print("Select a number: ");
         int menuFunctions = input.nextInt();
@@ -34,8 +35,9 @@ import java.util.Scanner;
                     System.out.println("8. Options");
                     System.out.println("9. Speed dials");
                     System.out.println("10. Voice tags");
+                    System.out.println("0. Back");
+    
                     System.out.print("Select a number: ");
-           
                     menuFunctions = input.nextInt();
                     
                     switch (menuFunctions) {
@@ -57,6 +59,7 @@ import java.util.Scanner;
                                 System.out.println("Options");
                                 System.out.println("1. Type of view");
                                 System.out.println("2. Memory status");
+                                System.out.println("0. Back");
 
                                 System.out.print("Select an input: ");
                                 menuFunctions = input.nextInt();
@@ -84,8 +87,10 @@ import java.util.Scanner;
                         System.out.println("8. Info service");
                         System.out.println("9. Voice mailbox number");
                         System.out.println("10. Service command editor");
-                        System.out.print("Select a number: ");
+                        System.out.println("0. Back");
 
+
+                        System.out.print("Select a number: ");
                         menuFunctions = input.nextInt();
 
                         switch (menuFunctions) {
@@ -106,6 +111,7 @@ import java.util.Scanner;
                                     System.out.println("Message settings");
                                     System.out.println("1. Set 1");
                                     System.out.println("2. Common 3");
+                                    System.out.println("0. Back");
 
                                     System.out.print("Select an input: ");
                                     menuFunctions = input.nextInt();
@@ -115,6 +121,7 @@ import java.util.Scanner;
                                                 System.out.println("1. Message centre number");
                                                 System.out.println("2. Message sent as");
                                                 System.out.println("3. Message validity");
+                                                System.out.println("0. Back");
 
                                                 System.out.print("Select an input: ");
                                                 menuFunctions = input.nextInt();
@@ -132,6 +139,7 @@ import java.util.Scanner;
                                                 System.out.println("1. Delivery reports");
                                                 System.out.println("2. Reply via same centre");
                                                 System.out.println("3. Character support");
+                                                System.out.println("0. Back");
 
                                                 System.out.print("Select an input: ");
                                                 menuFunctions = input.nextInt();
@@ -165,8 +173,9 @@ import java.util.Scanner;
                         System.out.println("6. Show call costs");
                         System.out.println("7. Call cost settings");
                         System.out.println("8. Prepaid credit");
-                        System.out.print("Select a number: ");
+                        System.out.println("0. Back");
 
+                        System.out.print("Select a number: ");
                         menuFunctions = input.nextInt();
 
                         switch (menuFunctions) {
@@ -186,6 +195,7 @@ import java.util.Scanner;
                                     System.out.println("3. Received calls duration");
                                     System.out.println("4. Dialled calls duration");
                                     System.out.println("5. Clear timers");
+                                    System.out.println("0. Back");
 
                                     System.out.print("Select an input: ");
                                     menuFunctions = input.nextInt();
@@ -208,6 +218,7 @@ import java.util.Scanner;
                                     System.out.println("1. Last call cost");
                                     System.out.println("2. All calls cost");
                                     System.out.println("3. Clear counters");
+                                    System.out.println("0. Back");
 
                                     System.out.print("Select an input: ");
                                     menuFunctions = input.nextInt();
@@ -225,6 +236,7 @@ import java.util.Scanner;
                                     System.out.println("Call cost settings");
                                     System.out.println("1. Call cost limit");
                                     System.out.println("2. Show costs in");
+                                    System.out.println("0. Back");
 
                                     System.out.print("Select an input: ");
                                     menuFunctions = input.nextInt();
@@ -250,7 +262,7 @@ import java.util.Scanner;
                         System.out.println("7. Warning and game tones");
                         System.out.println("8. Vibrating alert");
                         System.out.println("9. Screen saver");
-                        System.out.print("Select a number: ");
+                        System.out.println("0. Back");
 
                         System.out.print("Select a number: ");
                         menuFunctions = input.nextInt();
@@ -282,8 +294,9 @@ import java.util.Scanner;
                         System.out.println("2. Phone settings");
                         System.out.println("3. Security settings");
                         System.out.println("4. Restore factory settings");
-                        System.out.print("Select a number: ");
+                        System.out.println("0. Back");
 
+                        System.out.print("Select a number: ");
                         menuFunctions = input.nextInt();
 
                         switch (menuFunctions) {
@@ -295,8 +308,9 @@ import java.util.Scanner;
                                 System.out.println("4. Own number sending");
                                 System.out.println("5. Phone line in use");
                                 System.out.println("6. Automatic answer");
-                                System.out.print("Select a number: ");
+                                System.out.println("0. Back");
 
+                                System.out.print("Select a number: ");
                                 menuFunctions = input.nextInt();
 
                                     switch (menuFunctions) {
@@ -322,8 +336,9 @@ import java.util.Scanner;
                                 System.out.println("4. Network selection");
                                 System.out.println("5. Lights");
                                 System.out.println("6. Confirm SIM service actions");
-                                System.out.print("Select a number: ");
+                                System.out.println("0. Back");
 
+                                System.out.print("Select a number: ");
                                 menuFunctions = input.nextInt();
 
                                     switch (menuFunctions) {
@@ -348,8 +363,9 @@ import java.util.Scanner;
                                 System.out.println("4. Closed user group");
                                 System.out.println("5. Phone security");
                                 System.out.println("6. Change access codes");
-                                System.out.print("Select a number: ");
+                                System.out.println("0. Back");
 
+                                System.out.print("Select a number: ");
                                 menuFunctions = input.nextInt();
 
                                     switch (menuFunctions) {
@@ -386,6 +402,7 @@ import java.util.Scanner;
                         System.out.println("4. Stopwatch");
                         System.out.println("5. Countdown timer");
                         System.out.println("6. Auto update of date and time");
+                        System.out.println("0. Back");
     
                         System.out.print("Select a number: ");
                         menuFunctions = input.nextInt();
