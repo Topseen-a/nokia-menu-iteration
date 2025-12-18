@@ -30,7 +30,8 @@ import java.util.Scanner;
             }
 
             switch (menuFunctions) {
-                case 1 -> {
+                case 1 -> 
+                    while (true){
                         System.out.println("1. Search");
                         System.out.println("2. Service Nos.");
                         System.out.println("3. Add name");
@@ -45,6 +46,10 @@ import java.util.Scanner;
         
                         System.out.print("Select a number: ");
                         menuFunctions = input.nextInt();
+
+                        if (menuFunctions == 0){
+                            break;
+                        }
                         
                         switch (menuFunctions) {
                             case 1 -> System.out.println("Search");
@@ -82,6 +87,7 @@ import java.util.Scanner;
                             case 10 -> System.out.println("Voice tags");
                                     }
                                 }
+                            
                     case 2 -> {
                             System.out.println("1. Write messages");
                             System.out.println("2. Inbox");
