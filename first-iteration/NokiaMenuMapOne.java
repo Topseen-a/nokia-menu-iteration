@@ -330,12 +330,6 @@ import java.util.Scanner;
                 case 13:
                     System.out.println("SIM services");
                     break;
-                case 0:
-                    System.out.println("Exiting...");
-                    break;
-                default:
-                    System.out.println("Invalid option");
-                    break;
             }
         }
     }
